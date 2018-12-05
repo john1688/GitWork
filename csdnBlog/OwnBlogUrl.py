@@ -9,7 +9,7 @@ def attention_weixin():
 	i=1
 	b = webdriver.Chrome()
 	b.maximize_window()
-	b.get("https://blog.csdn.net/u010569419/article/list/1?t=1")
+	b.get("https://blog.net/u010569419/article/list/1?t=1")
 	#b.find_element_by_xpath("/html/body/div[2]/div/main/ul/li[1]/div/div[1]/h2/a").click()
 	while i < 20:
 		try:
