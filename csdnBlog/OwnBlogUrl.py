@@ -28,5 +28,3 @@ def attention_weixin():
 
 	#f.close()
 attention_weixin()
-
-# id已跑到794347
