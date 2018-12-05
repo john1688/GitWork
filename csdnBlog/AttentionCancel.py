@@ -9,7 +9,7 @@ def attention_weixin():
 	i=84720
 	b = webdriver.Chrome()
 	b.maximize_window()
-	b.get("https://passport.csdn.net/passport_fe/login.html")
+	b.get("https://BlogNet/passport_fe/login.html")
 	b.find_element_by_xpath("/html/body/div[1]/div/div/div/div[2]/div[2]/ul/li[1]/a").click()
 	b.find_element_by_id("all").send_keys("")
 	time.sleep(3)
@@ -43,7 +43,7 @@ def attention_weixin():
 def attention_fan():
 	b = webdriver.Chrome()
 	b.maximize_window()
-	b.get("https://passport.csdn.net/passport_fe/login.html")
+	b.get("https://BlogNet/passport_fe/login.html")
 	b.find_element_by_xpath("/html/body/div[1]/div/div/div/div[2]/div[2]/ul/li[1]/a").click()
 	b.find_element_by_id("all").send_keys("")
 	time.sleep(3)
@@ -93,7 +93,7 @@ def attention_fan():
 def attention_data():
 	b = webdriver.Chrome()
 	b.maximize_window()
-	b.get("https://passport.csdn.net/passport_fe/login.html")
+	b.get("https://BlogNet/passport_fe/login.html")
 	b.find_element_by_xpath("/html/body/div[1]/div/div/div/div[2]/div[2]/ul/li[1]/a").click()
 	b.find_element_by_id("all").send_keys("")
 	time.sleep(3)

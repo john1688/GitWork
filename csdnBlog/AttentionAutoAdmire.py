@@ -31,7 +31,7 @@ def attention_admire():
     i = 80
     b = webdriver.Chrome()
     b.maximize_window()
-    b.get("https://passport.csdn.net/passport_fe/login.html")
+    b.get("https://BlogNet/passport_fe/login.html")
     b.find_element_by_xpath("/html/body/div[1]/div/div/div/div[2]/div[2]/ul/li[1]/a").click()
     b.find_element_by_id("all").send_keys("")
     time.sleep(3)
