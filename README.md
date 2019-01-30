@@ -14,5 +14,5 @@
     通过python、java+各种框架，快速提升网站权重
     重要的事情说三遍，稍后补充在博客中！
 
-# 更多详情，请关注  ：  https://blog.csdn.net/u010569419/article/details/86486489
+# 更多详情，请关注  ：  https://blog.csdn.net/u010569419
 
